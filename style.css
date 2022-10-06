@@ -10,11 +10,21 @@
     margin: 0 auto;
 }
 
+section p{
+    text-align: left;
+}
+
 header,
 footer{
     padding: 16px 0;
     background-color:  #add8e6;
     color:#006400;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
 }
 
 section h2{
@@ -46,7 +56,10 @@ p{
     font-family: 'Open Sans', sans-serif;
     padding: 12px;
     font-weight: bold;
+    max-width: 90%;
+    text-align: justify;
 }
+
 
 header .container,
 section .container{
@@ -70,5 +83,16 @@ form textarea{
 }
 
 form button:hover{
-    background-color:#006400 ; 
+    background-color:#006400 ;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+input:focus, textarea:focus{
+    outline-color: #182c61;
+}
+
+form{
+    margin-top: 25px;
 }
